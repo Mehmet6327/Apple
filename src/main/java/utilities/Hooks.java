@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Screen {
+public class Hooks {
     public static String getScreenshot(String name) throws IOException {
         String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
